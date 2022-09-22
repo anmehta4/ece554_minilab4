@@ -13,7 +13,7 @@ genvar i;
  
 generate 
    for (i = 0; i < DIM; i++) begin
-      fifo #(.DEPTH(DIM+i), .BITS(BITS_AB)) FIFO(.clk(clk), .rst_n(rst_n), .en(en), .d(B[i]), .q(Bout[i]));
+      fifo #(.DEPTH(DIM+i), .BITS(BITS_AB)) FIFO(.clk(clk), .rst_n(rst_n), .en(en), .d(Bin[i]), .q(Bout[i]));
    end
 endgenerate
 
