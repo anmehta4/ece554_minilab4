@@ -1,5 +1,5 @@
 
-module memAfifo
+module fifo_a
   #(
   parameter DEPTH=8,
   parameter DIM=8,
