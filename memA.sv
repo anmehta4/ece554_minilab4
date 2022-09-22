@@ -10,13 +10,11 @@ module memA
   output signed [BITS_AB-1:0] Aout [DIM-1:0]
 );
 
-  logic signed [BITS_AB-1:0] A_flipped [DIM-1:0];
   
 genvar i;
 generate
   for (i = 0; i < DIM; i++) begin
-    A_flipped[i] = Ain[DIM-i];
-    memAfifo #(.DEPTH(DIM+i), .BITS(BITS_AB)) MEM_A_FIFO(.clk(clk), .rst_n(rst_n), .en(en), .d(A_flipped), .q(Aout));
+    memAfifo #(.DEPTH(DIM+i), .BITS(BITS_AB), .DIM(DIM)) MEM_A_FIFO(.clk(clk), .rst_n(rst_n), .en(en), .d(Ain), .q(Aout), .WrEn((Arow == i) ? WrEn : 1'b0));
   end
 endgenerate
 
