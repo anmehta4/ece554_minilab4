@@ -14,7 +14,8 @@ module memA
 genvar i;
 generate
   for (i = 0; i < DIM; i++) begin
-    fifo_a #(.DEPTH(DIM+i), .BITS(BITS_AB), .DIM(DIM)) FIFO_A(.clk(clk), .rst_n(rst_n), .en(en), .d(Ain), .q(Aout), .WrEn((Arow == i) ? WrEn : 1'b0));
+    fifo_a #(.DEPTH(DIM+i), .BITS(BITS_AB), .DIM(DIM)) FIFO_A(.clk(clk),
+    .rst_n(rst_n), .en(en), .d(Ain), .q(Aout[i]), .WrEn((Arow == i) ? WrEn : 1'b0));
   end
 endgenerate
 
