@@ -50,7 +50,6 @@ integer errors, mycycle;
             Bin = B[cyc];
             @(posedge clk) begin end
             if (Bout[cyc] !== 0) begin
-                $display("ERROR! Bout is not 0 in cycle %d !", cyc);
                 errors++;
             end
          end
@@ -63,7 +62,6 @@ integer errors, mycycle;
              for(int c=0; c<DIM; ++c) begin
                   Brec[r][c] = Bout[c];
                   if(Bexp[r][c] !== Bout[c]) begin
-                      $display("ERROR! The output Bout is not as expected!");
                       errors++;
                   end
              end
