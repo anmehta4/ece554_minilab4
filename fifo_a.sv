@@ -20,7 +20,9 @@ module fifo_a
       end
     end else if(en || WrEn) begin
       if(en) begin
-	buffer[0] <= 0;
+	if(~WrEn) begin
+	  buffer[0] <= 0;
+	end
 	for(int i = 0; i < DEPTH-1; i += 1) begin
 	  buffer[i+1] <= buffer[i];
 	end
@@ -28,7 +30,7 @@ module fifo_a
 
       if(WrEn) begin
 	for(int i = 0; i < DIM; i+= 1) begin
-	  buffer[i] = d[DIM-i-1];
+	  buffer[i] <= d[DIM-i-1];
 	end
       end
     end
