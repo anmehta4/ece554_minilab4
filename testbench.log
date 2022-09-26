@@ -1,0 +1,59 @@
+couldn't open "transcript": permission denied
+# Reading C:/intelFPGA/19.1/modelsim_ase/tcl/vsim/pref.tcl
+# Loading project minilab4
+# Compile of memB.sv was successful.
+# Compile of memA.sv was successful.
+# Compile of fifo.sv was successful.
+# Compile of fifo_a.sv was successful.
+# Compile of memB_tc.svh was successful with warnings.
+# Compile of memB_tb.sv was successful with warnings.
+# Compile of memA_tc.svh was successful with warnings.
+# Compile of memA_tb.sv was successful with warnings.
+# 8 compiles, 0 failed with no errors.
+vsim work.memA_tb
+# vsim work.memA_tb 
+# Start time: 12:03:23 on Sep 26,2022
+# Loading sv_std.std
+# Loading work.memA_tb_sv_unit
+# Loading work.memA_tb
+# Loading work.memA
+# Loading work.fifo_a
+run -all
+# YAHOO! Test           1 Passed!
+# YAHOO! Test           2 Passed!
+# YAHOO! Test           3 Passed!
+# YAHOO! Test           4 Passed!
+# YAHOO! Test           5 Passed!
+# YAHOO! Test           6 Passed!
+# YAHOO! Test           7 Passed!
+# YAHOO! Test           8 Passed!
+# YAHOO! Test           9 Passed!
+# YAHOO! Test          10 Passed!
+# ** Note: $stop    : C:/Users/Zander/Downloads/School/ECE554/Minilab/ece554_minilab4/memA_tb.sv(91)
+#    Time: 2525 ps  Iteration: 1  Instance: /memA_tb
+# Break in Module memA_tb at C:/Users/Zander/Downloads/School/ECE554/Minilab/ece554_minilab4/memA_tb.sv line 91
+quit -sim
+# End time: 12:03:51 on Sep 26,2022, Elapsed time: 0:00:28
+# Errors: 0, Warnings: 0
+vsim work.memB_tb
+# vsim work.memB_tb 
+# Start time: 12:03:55 on Sep 26,2022
+# Loading sv_std.std
+# Loading work.memB_tb_sv_unit
+# Loading work.memB_tb
+# Loading work.memB
+# Loading work.fifo
+run -all
+# YAHOO! Test           1 Passed!
+# YAHOO! Test           2 Passed!
+# YAHOO! Test           3 Passed!
+# YAHOO! Test           4 Passed!
+# YAHOO! Test           5 Passed!
+# YAHOO! Test           6 Passed!
+# YAHOO! Test           7 Passed!
+# YAHOO! Test           8 Passed!
+# YAHOO! Test           9 Passed!
+# YAHOO! Test          10 Passed!
+# ** Note: $stop    : C:/Users/Zander/Downloads/School/ECE554/Minilab/ece554_minilab4/memB_tb.sv(85)
+#    Time: 2525 ps  Iteration: 1  Instance: /memB_tb
+# Break in Module memB_tb at C:/Users/Zander/Downloads/School/ECE554/Minilab/ece554_minilab4/memB_tb.sv line 85
