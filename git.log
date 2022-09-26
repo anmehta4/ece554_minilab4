@@ -1,0 +1,110 @@
+commit ef744ba5d65ade38fa4ce3dc718f2b4b796f93f8
+Author: Zander Huang <zthuang@wisc.edu>
+Date:   Mon Sep 26 12:06:14 2022 -0500
+
+    added a log of the transcript
+
+commit 1b4c1c8ab12c4eb48f23200c394ef4db26d474c2
+Merge: 3b19f2f 3f0f345
+Author: Zander Huang <zthuang@wisc.edu>
+Date:   Thu Sep 22 20:53:10 2022 -0500
+
+    Merge branch 'main' of https://github.com/anmehta4/ece554_minilab4
+
+commit 3b19f2f7b71fa079c0ae4ba98f1ba1717bc5eea0
+Author: Zander Huang <zthuang@wisc.edu>
+Date:   Thu Sep 22 20:53:03 2022 -0500
+
+    added the memA testbench
+
+commit 3f0f345178f385433be29e2f756f6e120db33185
+Author: Arnav Mehta <anmehta4@wisc.edu>
+Date:   Thu Sep 22 19:43:53 2022 -0500
+
+    Test files for memB.sv
+
+commit 205cbf312aef6d253d789851d05ec11480c269a2
+Merge: de3b6fc 07cc6a0
+Author: Arnav Mehta <anmehta4@wisc.edu>
+Date:   Thu Sep 22 19:39:43 2022 -0500
+
+    Merge branch 'main' of github.com:anmehta4/ece554_minilab4 into main
+
+commit de3b6fc4dc91af0cedbca3527fe31f1e4b2cdf61
+Author: Arnav Mehta <anmehta4@wisc.edu>
+Date:   Thu Sep 22 19:39:26 2022 -0500
+
+    Test files for memB.sv
+
+commit 07cc6a0d2a50c3ca4069994a3b62c7feccadd896
+Author: Zander Huang <zthuang@wisc.edu>
+Date:   Thu Sep 22 19:00:23 2022 -0500
+
+    added special case where WrEn and en are both high
+
+commit 1ece2be80e65ea6589612de1ae7caca2bc5ec74c
+Author: Zander Huang <zthuang@wisc.edu>
+Date:   Thu Sep 22 18:57:32 2022 -0500
+
+    changed moduleAfifo to fifo_a module name
+
+commit 78676626444bcad92f71539c9f2cad9d076ff070
+Author: Zander Huang <zthuang@wisc.edu>
+Date:   Thu Sep 22 18:50:08 2022 -0500
+
+    tied individual elements of Aout to each fifo
+
+commit 6b50117db7f7ca431a33edaf41d464b2194eb4e2
+Merge: 1e73915 2e979bc
+Author: Zander Huang <zthuang@wisc.edu>
+Date:   Thu Sep 22 18:15:59 2022 -0500
+
+    Merge branch 'main' of https://github.com/anmehta4/ece554_minilab4
+
+commit 1e73915904e7fc5132a5e13cb44ca040a7a64cb5
+Author: Zander Huang <zthuang@wisc.edu>
+Date:   Thu Sep 22 17:57:59 2022 -0500
+
+    added a fifo for the memA
+
+commit 2e979bcb3fa1a8fe72fd63ff71e3cb02df5f86e0
+Author: Allison Seigler <55610738+allisonseigler@users.noreply.github.com>
+Date:   Thu Sep 22 17:57:28 2022 -0500
+
+    changed fifo module name
+
+commit 350e904039f953a4d826ef23242b73afd353e341
+Author: Allison Seigler <55610738+allisonseigler@users.noreply.github.com>
+Date:   Thu Sep 22 17:36:30 2022 -0500
+
+    added extra dim and WrEn logic
+
+commit b736d50f4dfb29ec6f29349eb34c6aff8a53629f
+Author: Allison Seigler <55610738+allisonseigler@users.noreply.github.com>
+Date:   Thu Sep 22 17:29:37 2022 -0500
+
+    attempt 1
+
+commit 8b32b8b1eb86222ee94ec39aaa350d9a7c2d5ee6
+Author: Arnav Mehta <anmehta4@wisc.edu>
+Date:   Thu Sep 22 17:03:16 2022 -0500
+
+    Modified error for output B -> Bout
+
+commit dfa39cfb76e323570b0523bd2b29e2c5afe32657
+Author: Arnav Mehta <anmehta4@wisc.edu>
+Date:   Thu Sep 22 17:02:01 2022 -0500
+
+    Made memB and added fifo
+
+commit 84681e74c42c8a49cf336aa0ed6f07d3775632ce
+Author: Arnav Mehta <anmehta4@wisc.edu>
+Date:   Thu Sep 22 15:56:20 2022 -0500
+
+    initial templates
+
+commit e5c3b59ddc3cc5ba7a389d754762bfc2c5e4d3cf
+Author: Arnav Mehta <71764771+anmehta4@users.noreply.github.com>
+Date:   Thu Sep 22 15:33:06 2022 -0500
+
+    Create memA.sv
